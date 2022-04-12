@@ -1,0 +1,143 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+body {
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: rgb(255, 121, 121, 0.95);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: minmax(90px, auto);
+  justify-items: stretch;
+  width: 70vw;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+.cta {
+  grid-column: 1/2;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.col2 {
+  grid-column 2/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#promoBox {
+  background-color: #5e54a4;
+  border-radius: 10px;
+  width: 25vw;
+  padding: 10px;
+  margin-bottom: 8%;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#freeTrial {
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+#monthlyPrice {
+  font-weight: regular;
+
+  font-size: 0.85rem;
+}
+
+.signUpContainer {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0;
+  width: 25vw;
+  padding: 30px;
+  }
+
+.signUpForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px;
+  border: 0;
+  outline-style: solid;
+  outline-color: #dedede;
+  outline-width: 0.5px;
+  border-radius: 3px;
+  line-height: 1.5rem;
+  padding: 10px;
+}
+
+input:focus {
+  border: 0;
+  outline-style: solid;
+  outline-color: #3d3b48;
+}
+
+#btn {
+  margin: 10px;
+  border: 0;
+  background-color: #38cc8b;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.05pc;
+  text-transform: uppercase;
+  border-radius: 3px;
+  line-height: 1.5rem;
+  padding: 10px;
+  margin-bottom: 0.5px;
+}
+
+#btn:hover {
+  background-color: rgb(56, 204, 139, 0.9);
+}
+
+.footnote {
+  color: #bab7d4;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+
+#tosLink {
+  color: #ff7979;
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  align-items: bottom;
+}
