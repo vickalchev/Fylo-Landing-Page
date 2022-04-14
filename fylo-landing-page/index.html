@@ -15,6 +15,7 @@
   </style>
 </head>
 <body>
+  <!-- Setting up the navigation bar -->
   <nav class="top-nav">
     <img class="img-logo" href="./images/logo.svg">
     <ul class="nav-menu">
@@ -23,23 +24,78 @@
       <li class="menu-item"><a>Sign In</a></li>
     </ul>
   </nav>
-  <header class="hero">
-    <section class="hero-left-col">
 
+  <!-- Setting up the hero section -->
+  <header class="hero">
+    <!-- The left box of the hero section -->
+    <section class="left-col">
+      <h2>All your files in one secure location, accessible anywhere.</h2>
+      <p class="hero-blurb">
+        Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
+      </p>
+      <form class="hero-signup-form">
+        <input class="email-input" type="email" placeholder="Enter your email...">
+        <button class="btn" type="button">Get Started</button>
+      </form>
     </section>
-    <section class="hero-right-col">
-      <img class="img-hero" href="./images/illustration-1.svg">
+    <!-- The right box of the hero section -->
+    <section class="right-col">
+      <img class="illustration" href="./images/illustration-1.svg">
     </section>
   </header>
   
-
-
+  <!-- Main section -->
+  <main class="main-container">
+    <!-- The left box of the main section -->
+    <section class="left-col">
+      <h2>Stay productive, wherever you are</h2>
+      <p>Never let location be the issue when accessing your files, Fylo has you covered for all of your storage needs.</p>
+      <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+      <p id="green-link"><a href="#">See how Fylo works<span><img href="./images/icon-arrow.svg"></span></a></p>
+      <!-- Quote section -->
+      <div class="quote-container">
+        <p class="quote-icon">"</p>
+        <p class="in-quote-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+        <div class="quote-author-container">
+          <img id="author-photo" href="./images/icon-quotes.svg">
+          <p id="quote-author-name">Kyle Burton</p>
+          <p id="quote-author-role">Founder & CEO, Huddle</p>
+        </div> 
+      </div>
+    </section>
+    <!-- The right box of the main section -->
+    <section class="right-col">
+      <img class="illustration" href="./images/illustration-2.svg">
+    </section>
+  </main>
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="left-col">
+      <h2>Get early access today</h2>
+      <p class="cta-text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+    </div>
+    <div class="right-col">
+      <form class="hero-signup-form">
+        <input class="email-input" type="email" placeholder="Enter your email...">
+        <button class="btn" type="button">Get Started</button>
+      </form>
+    </div>
+  </section>
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <!-- The bottom menu with links & social media -->
+    <section class="bottom-menu">
+      <div></div>
+      <div></div>
+      <div></div>  
+    </section>
+    <!-- The below is the signature of the website -->
+    <section id="signature">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Vic Kalchev</a>.
+      </p>
+  </section>
   </footer>
 </body>
 </html>
