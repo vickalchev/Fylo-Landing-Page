@@ -12,18 +12,9 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
   <body>
     <!-- Setting up the navigation bar -->
@@ -82,7 +73,7 @@
         </p>
         <!-- Quote section -->
         <div class="quote-container">
-          <p class="quote-icon">"</p>
+          <img id="quote-icon" href="./images/icon-quotes.svg" />
           <p class="in-quote-text">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -142,14 +133,23 @@
             <li><a href="#">Blog</a></li>
           </ul>
         </div>
-        <div id="footer-col-3"></div>
+        <div id="footer-col-3">
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div id="footer-col-4">
+          <img id="icon-fb" href="" />
+        </div>
       </section>
       <!-- The below is the signature of the website -->
       <section id="signature">
         <p class="attribution">
           Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor</a
           >. Coded by <a href="#">Vic Kalchev</a>.
         </p>
       </section>
